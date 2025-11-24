@@ -14,9 +14,6 @@ maintainers = ["eric_G"]
 [upstream]
 license = "CECILL-2.0"
 website = "https://www.sigb.net"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://forge.sigb.net/"
 
 [integration]
