@@ -1,0 +1,67 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/main/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "pmb"
+name = "PMB"
+description.en = "Integrated Library Software"
+description.fr = "Logiciel libre de gestion de médiathèque"
+
+version = "8.0.1.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "CECILL-2.0"
+website = "https://www.sigb.net"
+demo = "https://demo.example.com"
+admindoc = "https://yunohost.org/packaging_apps"
+userdoc = "https://yunohost.org/apps"
+code = "https://forge.sigb.net/"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/pmb"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://forge.sigb.net/attachments/download/4845/pmb8.0.1.0.zip"
+    sha256 = "1a93e5f7c2f3537d096f4c20806502c70601ccc308eeb9d5190a4d589c42ea9a"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+    group = "www-data:r-x"
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.apt]
+    packages = "mariadb-server, php8.3-imagick, php8.3-mbstring, php8.3-zip, php8.3-intl, php8.3-gd, php8.3-curl, php8.3-exif, php8.3-mysqli, php8.3-xml, php8.3-soap"
+
+    [resources.database]
+    type = "mysql"
