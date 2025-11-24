@@ -4,7 +4,7 @@ packaging_format = 2
 
 id = "pmb"
 name = "PMB"
-description.en = "Integrated Library Software"
+description.en = "Library management software"
 description.fr = "Logiciel libre de gestion de médiathèque"
 
 version = "8.0.1.0~ynh1"

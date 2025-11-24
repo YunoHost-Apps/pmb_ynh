@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+PMB est un logiciel de gestion de bibliothèque et centre de documentations.

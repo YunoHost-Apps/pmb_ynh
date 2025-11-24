@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+PMB is library management software and a documentation centre.
