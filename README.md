@@ -8,10 +8,9 @@ It shall NOT be edited by hand.
   PMB, packaged for YunoHost
 </h1>
 
-Integrated Library Software
+Library management software
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://www.sigb.net)
-[![App Demo](https://img.shields.io/badge/App_Demo-blue?style=for-the-badge)](https://demo.example.com)
 [![Version: 8.0.1.0~ynh1](https://img.shields.io/badge/Version-8.0.1.0~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/pmb/)
 
 <div align="center">

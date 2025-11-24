@@ -4,7 +4,7 @@ packaging_format = 2
 
 id = "pmb"
 name = "PMB"
-description.en = "Integrated Library Software"
+description.en = "Library management software"
 description.fr = "Logiciel libre de gestion de médiathèque"
 
 version = "8.0.1.0~ynh1"
@@ -14,13 +14,10 @@ maintainers = ["eric_G"]
 [upstream]
 license = "CECILL-2.0"
 website = "https://www.sigb.net"
-demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
 code = "https://forge.sigb.net/"
 
 [integration]
-yunohost = ">= 12.0.9"
+yunohost = ">= 12.1.17"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
