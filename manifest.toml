@@ -7,7 +7,7 @@ name = "PMB"
 description.en = "Library management software"
 description.fr = "Logiciel libre de gestion de médiathèque"
 
-version = "8.0.1.0~ynh1"
+version = "8.0.1.37~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -46,8 +46,8 @@ ram.runtime = "40M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://forge.sigb.net/attachments/download/4845/pmb8.0.1.0.zip"
-    sha256 = "1a93e5f7c2f3537d096f4c20806502c70601ccc308eeb9d5190a4d589c42ea9a"
+    url = "https://forge.sigb.net/attachments/download/5440/pmb8.0.1.37.zip"
+    sha256 = "e616438eceb285e8ee82220828bdd18508ffa85ce50225d0eb4de297a5ed02f1"
 
     [resources.system_user]
 
